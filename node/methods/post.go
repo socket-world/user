@@ -1,4 +1,4 @@
-package main
+package methods
 
 import (
 	"fmt"
@@ -14,8 +14,8 @@ import (
 	"gopkg.in/macaroon-bakery.v2/bakery"
 	"gopkg.in/macaroon-bakery.v2/bakery/checkers"
 
-	"github.com/socketworld/user/utilities"
-	"github.com/socketworld/user/ledger"
+	"github.com/socketworld/user/node/utilities"
+	"github.com/socketworld/user/node/ledger"
 
 )
 

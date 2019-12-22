@@ -1,4 +1,4 @@
-package main
+package methods
 
 import (
 	"log"
@@ -11,7 +11,7 @@ import (
 
 	"gopkg.in/macaroon-bakery.v2/bakery"
 
-	"github.com/socketworld/user/ledger"
+	"github.com/socketworld/user/node/ledger"
 
 )
 
