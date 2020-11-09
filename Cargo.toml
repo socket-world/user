@@ -5,5 +5,8 @@ authors = ["David Maull <d@network-sanity.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+#iron = "0.6.1"
+#router = "0.6.0"
+warp = "0.2.5"
+tokio = { version = "0.2", features = ["macros"] }
